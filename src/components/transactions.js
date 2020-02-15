@@ -17,7 +17,7 @@ export const Transactions = props => {
             return (
               <tr key={transaction["account"]}>
                 <td>
-                  <a href={`/profile/${transaction["account"]}`}>
+                  <a href={`/details/${transaction["account"]}`}>
                     {transaction["account"]}
                   </a>
                 </td>

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import "../scss/profile.scss";
 import { connect } from "react-redux";
-import { getIndividualTransaction } from "../redux/selector";
+import { getTransactionById } from "../filters";
+
+import "./style.scss";
 
 class TransactionDetails extends Component {
   render() {
@@ -10,7 +11,7 @@ class TransactionDetails extends Component {
       return null;
     }
 
-    let individualTransaction = getIndividualTransaction(
+    let individualTransaction = getTransactionById(
       transactions,
       window.location.pathname.split("/").pop()
     )[0];
