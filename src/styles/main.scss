@@ -24,9 +24,20 @@ body {
           padding: 10px;
           .options-wrapper {
             margin: 5px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
           }
+          text-align: left;
         }
       }
     }
+  }
+  .tr-loader {
+    margin-top: 50vh;
+  }
+  .account-name,
+  .transaction-type {
+    width: 200px;
   }
 }

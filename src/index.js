@@ -1,9 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
 import { Router } from "react-router-dom";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
+
+import "react-app-polyfill/ie11";
+import "react-app-polyfill/stable";
+
+import App from "./App";
 import TransactionReducer from "./redux/reducers";
 import { composeWithDevTools } from "redux-devtools-extension";
 import history from "./history";
