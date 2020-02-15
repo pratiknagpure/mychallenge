@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## My Transactions
+
+In the project directory, run command npm install to install node dependancies:
 
 ## Available Scripts
 
