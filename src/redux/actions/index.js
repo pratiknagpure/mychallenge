@@ -1,0 +1,1 @@
+export { getAllTransactions } from "./transactions";
