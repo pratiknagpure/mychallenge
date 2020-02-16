@@ -7,7 +7,7 @@ export const Main = props => {
     <div className="container">
       <div className="content-area">
         <header>
-          <h1 style={{ "text-align": "left" }}>My Transactions</h1>
+          <h1 style={{ textAlign: "left" }}>My Transactions</h1>
         </header>
         <hr />
         <TransactionsSections />

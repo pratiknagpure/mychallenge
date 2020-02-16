@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { getTransactionById } from "../filters";
 
-import "./style.scss";
+import "./transactionDetails.scss";
 
-class TransactionDetails extends Component {
+export class TransactionDetails extends Component {
   render() {
     const { transactions } = this.props;
     if (!transactions) {
